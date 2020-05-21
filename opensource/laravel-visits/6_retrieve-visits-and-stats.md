@@ -36,7 +36,7 @@ visits('App\Post')->period('day')->count();
 visits($post)->countries();
 ```
 
-## Referers of visitors
+## Referrers of visitors
 ```php
 visits($post)->refs();
 ```
